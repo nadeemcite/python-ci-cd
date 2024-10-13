@@ -20,7 +20,7 @@ class TestUtils(unittest.TestCase):
         self.assertEqual(result, False)
     #another test case 
     def test_6(self):
-        result = is_even_and_positive(6)
+        result = is_even_and_positive(1)
         self.assertEqual(result,True)
 
 
